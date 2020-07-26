@@ -1,0 +1,41 @@
+some basic concepts and java terminology
+https://beginnersbook.com/2013/05/java-introduction/
+
+Install
+======
+
+how to set up java_home
+===================
+how to set java_home in mac
+https://mkyong.com/java/how-to-set-java_home-environment-variable-on-mac-os-x/
+
+how to in windows:
+-------------------
+Right click My Computer and select Properties.
+
+On the Advanced tab, select Environment Variables, and then edit JAVA_HOME to point to where the JDK software is located, for example, 
+JAVA_HOME = C:\Program Files\Java\jdk1.8.0_27
+
+PATH
+○ Append java path to your existing path like this
+PATH = C:\Program Files\Java\jdk1.8.0_27\bin
+
+how to verify
+==============
+run set in windows (or env in mac) and make sure JAVA_HOME is setup
+
+$java -version
+java version "1.8.0_241"
+
+$javac
+(should not give you unrecognized command)
+
+kb / common errors:
+===================
+1. could not find or load main class
+make sure JAVA_HOME is configured
+make sure if there is a package then run the program from base directory
+
+2. Exception in thread "main" java.lang.NoClassDefFoundError
+https://www.codegravity.com/blog/exception-in-thread-main-java-lang-noclassdeffounderror 
+
