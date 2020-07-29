@@ -3,6 +3,7 @@ https://beginnersbook.com/2013/05/java-introduction/
 
 Install
 ======
+https://www.oracle.com/java/technologies/javase-downloads.html 
 
 how to set up java_home
 ===================
