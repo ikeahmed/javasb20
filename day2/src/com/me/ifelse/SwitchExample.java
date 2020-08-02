@@ -2,7 +2,7 @@ package com.me.ifelse;
 
 public class SwitchExample {
     public static void main(String[] args) {
-        int value = 1;
+        int value = 3;
         switch (value) {
             case 1:
                 System.out.println("Value was 1");
