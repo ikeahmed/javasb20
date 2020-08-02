@@ -40,3 +40,5 @@ make sure if there is a package then run the program from base directory
 2. Exception in thread "main" java.lang.NoClassDefFoundError
 https://www.codegravity.com/blog/exception-in-thread-main-java-lang-noclassdeffounderror 
 
+recording of session: 
+https://us02web.zoom.us/rec/share/6vEvEorP12ZJWbPAzHHufpx5AK7uT6a81HVK__tczkmWBDbqjEv5PMvcUohsNmCj?startTime=1595793206000
