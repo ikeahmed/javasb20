@@ -1,0 +1,4 @@
+top menu -> intellij -> preferences->plugins Search for "the IDE Features Trainer" plugin and install it. 
+After a restart, IntelliJ IDEA's Welcome screen will add a Learn… button. 
+Click it to start IntelliJ IDEA with the learning tool window opened
+
