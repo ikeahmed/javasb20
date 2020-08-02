@@ -8,6 +8,7 @@ how to debug
 how to find file, string, class etc
 how to auto generate code/refactor
 
+also show to create Car class
 
 appearance/fonts
 ----------------
