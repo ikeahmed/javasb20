@@ -1,0 +1,33 @@
+four basic principles/pillars of OOP
+https://medium.com/@cancerian0684/what-are-four-basic-principles-of-object-oriented-programming-645af8b43727
+access modifer
+constructor
+setter, this. 
+inheritance
+
+Exercise:
+write a class with name Person.
+it should have three attributes,
+    firstName as String
+    lastName as String
+    age as int
+
+create getters and setters for the above three attributes
+implement two more methods
+    isTeen() - should return true or false based on the age
+    getFullName() - should return first name plus last name.
+
+How to test:
+    write another test class with main method. with four test cases.
+    use setter method to set the first name, last name and age
+    test case 1: first name empty, last name empty, age = 20
+    expected result: full name: empty, isTeen is false
+
+    test case 2: first name Muhammad, last name empty, age = 15
+    expected result: full name: Muhammad, isTeen returns true
+
+    test case 3: first name Muhammad, last name Shamsi, age = 15
+    expected result: full name: Muhammad Shamsi, isTeen returns true
+
+    test case 4: first name empty, last name Shamsi, age = 40
+    expected result: full name: Shamsi, isTeen returns false
