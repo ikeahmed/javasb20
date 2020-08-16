@@ -1,0 +1,29 @@
+Recap of the assignment. 
+Use junit instead of main method to test your class.
+
+How to create JUnit for java app in intellij
+============================================
+Right click on project then select new->directory. Create a new directory and name it "test".
+Right click on "test" folder then select Mark Directory As->Test Sources Root.
+Click on Navigate->Test->Create New Test. Select Testing library(JUnit4 or any) Specify Class Name. Select Member.
+
+
+postman/rest intro
+rest: http://www.httpbin.org/#/HTTP_Methods 
+#http://ron-swanson-quotes.herokuapp.com/v2/quotes
+#http://www.omdbapi.com
+#http://www.omdbapi.com/?apikey=6d2c6568&t=superman #search movie by title superman
+#http://www.omdbapi.com/?apikey=6d2c6568&t=black+panther  #search movie by title black panther 
+#http://www.omdbapi.com/?apikey=6d2c6568&i=tt1825683 # search black panther movie by iMDB id
+#http://www.omdbapi.com/?apikey=6d2c6568&y=2019 #search all movies in 2019, gives error
+#http://api.twitter.com/?apikey=6d2c6568&y=2019 #calling twitter api, gives error but compare this error with above
+#http://www.httpbin.org/get
+#https://automatetheboringstuff.com/files/rj.txt # will download romeo and juliet drama
+#https://gturnquist-quoters.cfapps.io/api/random # random quote about java spring boot technology 
+#http://httpbin.org/get #simple http request and response service . good for testing get, post, put and delete
+#https://api.exchangeratesapi.io/latest 
+
+create a springboot app for web. use gradle, all default.
+verify just by running it and make sure no error
+
+create a controller class and request mapping to return hello world
