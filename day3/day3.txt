@@ -19,7 +19,8 @@ implement two more methods
 
 How to test:
     write another test class with main method. with four test cases.
-    use setter method to set the first name, last name and age
+    use setter methods to set the first name, last name and age 
+    
     test case 1: first name empty, last name empty, age = 20
     expected result: full name: empty, isTeen is false
 

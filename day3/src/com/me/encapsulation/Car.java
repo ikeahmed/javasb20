@@ -16,23 +16,30 @@ public class Car {
         return tires;
     }
 
-    public void setTires(int tires) {
-        this.tires = tires;
-    }
-
     public String getMake() {
         return make;
-    }
-
-    public void setMake(String make) {
-        this.make = make;
     }
 
     public String getModel() {
         return model;
     }
 
+    public void setTires(int tires) {
+        this.tires = tires;
+    }
+
+    public void setMake(String make) {
+        this.make = make;
+    }
+
     public void setModel(String model) {
         this.model = model;
+    }
+    public static void main (String[] args) {
+        Car car = new Car();
+        car.setMake("Toyota");
+        car.setModel("Camry");
+        System.out.println(car.getMake());
+        System.out.println(car.getModel());
     }
 }

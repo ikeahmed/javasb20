@@ -1,6 +1,6 @@
 package com.me.polymorphism.dynamic;
 
-public class Bird {
+public class Bird extends Animal {
     public void eat() {
         System.out.println("This bird eats seeds.");
     }
