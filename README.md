@@ -13,9 +13,9 @@ Meeting Recording:
 https://us02web.zoom.us/rec/play/68F4fryqpzw3G9WXswSDBP4vW9S6e6ms0SFMr_JcmEfkBnYEM1bwYrNAYuSNqS-lwTZyxfF7yAOkHF7n?continueMode=true
 
 
-Week 5: Building RESTful Web Services
+Week 5: Building RESTful Web Services, Consuming RESTful service.
 
-Week 6: Deploy in cloud, Consuming RESTful service 
+Week 6: Package spring boot service into docker container and deploy in cloud
 
 Week 7: Testing the web layer using Mock, Junit and Spring boot 
 

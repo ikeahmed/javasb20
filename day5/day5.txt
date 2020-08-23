@@ -1,0 +1,16 @@
+recap of what we did in last session
+  make sure most of students are able to run hello world service 
+
+walk through of learn though 15-30 min guides
+https://spring.io/guides 
+
+https://spring.io/guides/gs/rest-service/
+* code walk through
+* download, open both initial/complete projects for gradle 
+* atomic counter
+* run via command line
+
+go back to hello world service and add
+ hello name
+ put, post and delete mapping
+ call random quote service 
