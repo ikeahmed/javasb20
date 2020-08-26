@@ -14,6 +14,9 @@ https://us02web.zoom.us/rec/play/68F4fryqpzw3G9WXswSDBP4vW9S6e6ms0SFMr_JcmEfkBnY
 
 
 Week 5: Building RESTful Web Services, Consuming RESTful service.
+Meeting Recording:
+https://us02web.zoom.us/rec/share/xcNkcK7Z-UVLb9bM12v-d6ocWYrBT6a82nIe8vIOzhvsH6gS08Lw_pxmOlNfkw-k
+
 
 Week 6: Package spring boot service into docker container and deploy in cloud
 
