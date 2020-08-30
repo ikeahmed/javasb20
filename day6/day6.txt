@@ -1,0 +1,41 @@
+recap of what we did in the last session
+ - make sure most of students are able to run day5 changeme project that covers
+ - hello name
+  - query param
+  - put, post and delete mapping (
+  - call an outgoing service
+
+- docker video, what and why of docker? 
+
+
+ install docker
+https://hub.docker.com/editions/community/docker-ce-desktop-mac/ 
+
+#verify installation by running hello world
+#should see Hello from Docker!
+docker run hello-world
+
+Uninstall docker
+From the Docker menu, select Troubleshoot and then select Uninstall.
+Click Uninstall to confirm your selection.
+
+docker dashboard and docker desktop
+getting started build and push 
+create a hello world in day 6 folder
+
+#build an image, make sure Dockerfile exists in current dir
+docker build -t spring-boot-docker . 
+
+start and listen on port 8080, d for background
+docker run -d -p 8080:8080 spring-boot-docker
+
+stop the container
+push the image
+
+troubleshooting
+If you get errors like denied: requested access to the resource is denied when pushing to Docker Hub 
+make sure to be logged into docker and also name before iamge name is your dockerub user id
+
+
+how to deploy to AWS cloud
+https://reflectoring.io/aws-deploy-docker-image-via-web-console/
