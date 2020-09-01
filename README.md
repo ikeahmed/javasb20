@@ -19,6 +19,9 @@ https://us02web.zoom.us/rec/share/xcNkcK7Z-UVLb9bM12v-d6ocWYrBT6a82nIe8vIOzhvsH6
 
 
 Week 6: Package spring boot service into docker container and deploy in cloud
+Meeting Recording:
+https://us02web.zoom.us/rec/share/z9ZfC5Du-jNJXrf12kjya6UuBLrmeaa80CYf8vBcnxzewrzvNyRTNf--O3drRAMy
+
 
 Week 7: Testing the web layer using Mock, Junit and Spring boot 
 

@@ -10,6 +10,7 @@ recap of what we did in the last session
 
  install docker
 https://hub.docker.com/editions/community/docker-ce-desktop-mac/ 
+https://hub.docker.com/editions/community/docker-ce-desktop-windows
 
 #verify installation by running hello world
 #should see Hello from Docker!
