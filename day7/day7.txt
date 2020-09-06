@@ -1,0 +1,24 @@
+stop the container
+push the image
+
+troubleshooting
+If you get errors like denied: requested access to the resource is denied when pushing to Docker Hub 
+make sure to be logged into docker and also name before iamge name is your dockerub user id
+
+aws 
+===
+aws
+make sure you know what region you signed into
+
+how to deploy to AWS cloud
+ecs, (image url and port mapping is important)
+image url: docker.io/ikeahmed/spring-boot-docker-demo
+
+https://reflectoring.io/aws-deploy-docker-image-via-web-console/
+
+create a day7demo. add actuator and spring web as dependencies
+https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html
+/actuator/health
+application.properties (server.port etc)
+management.endpoints.web.exposure.include=beans,health
+/health, /beans, /mappings, /routes

@@ -30,13 +30,3 @@ docker build -t spring-boot-docker .
 start and listen on port 8080, d for background
 docker run -d -p 8080:8080 spring-boot-docker
 
-stop the container
-push the image
-
-troubleshooting
-If you get errors like denied: requested access to the resource is denied when pushing to Docker Hub 
-make sure to be logged into docker and also name before iamge name is your dockerub user id
-
-
-how to deploy to AWS cloud
-https://reflectoring.io/aws-deploy-docker-image-via-web-console/
