@@ -23,6 +23,7 @@ Meeting Recording:
 https://us02web.zoom.us/rec/share/z9ZfC5Du-jNJXrf12kjya6UuBLrmeaa80CYf8vBcnxzewrzvNyRTNf--O3drRAMy
 
 
-Week 7: Testing the web layer using Mock, Junit and Spring boot 
+Week 7: Deploying spring boot docker application in AWS using ECS. spring boot actuator. 
+https://us02web.zoom.us/rec/share/uueK8RyhF2gLI-O6zH9VFyKgdMwWcMf_DlWltK9nKhYMQ1Tm9_DwItUKVTGK7JYm.ZE4UkVocQj0u40XD
 
-Week 8: CI/CD in cloud for java and spring boot apps 
+Week 8: Testing controller, web requests using Mockito 

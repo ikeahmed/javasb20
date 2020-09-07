@@ -25,11 +25,7 @@ Day7demoController dc;
 	void shouldReturnHello() {
 		assertEquals ("Hello", dc.hello());
 	}
-	@Test
-	void should() throws IOException {
-		Day7demoController dc2 = Mockito.mock(Day7demoController.class);
-		
-		assertEquals("Hello",dc2.hello());
+
 	}
 
 }
