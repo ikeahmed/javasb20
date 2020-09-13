@@ -1,21 +1,16 @@
 package com.example.enrollment.model;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Student {
     private String firstName;
     private String lastName;
     private String email;
     private String studentId;
-    private List<String> courseIds;
 
     public Student(String firstName, String lastName, String email, String studentId) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
         this.studentId = studentId;
-        this.courseIds =  new ArrayList<>();
     }
 
     public String getFirstName() {
@@ -50,11 +45,4 @@ public class Student {
         this.studentId = studentId;
     }
 
-    public List<String> getCourseIds() {
-        return courseIds;
-    }
-
-    public void addCourseId(String courseId) {
-        this.courseIds.add(courseId);
-    }
 }

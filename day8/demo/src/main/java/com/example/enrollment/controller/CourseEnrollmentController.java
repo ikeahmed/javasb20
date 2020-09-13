@@ -1,6 +1,7 @@
 package com.example.enrollment.controller;
 
 import com.example.enrollment.handler.EnrollmentService;
+import com.example.enrollment.handler.StudentsCoursesMapping;
 import com.example.enrollment.model.Course;
 import com.example.enrollment.model.Student;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -63,6 +64,10 @@ public class CourseEnrollmentController {
         String courseId = json.get("courseId");
         boolean ret = enrollmentService.enrollInACourse(studentId, courseId);
         return ret ? "Success": "Failure";
+    }
+    @GetMapping("/enroll")
+    public List<StudentsCoursesMapping> getStudentsCoursesMapping() {
+        return enrollmentService.getStudentsCoursesMappings();
     }
 
 }
