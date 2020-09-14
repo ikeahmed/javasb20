@@ -15,8 +15,10 @@ public class EnrollmentServiceTest {
     }
     @Test
     void verifyAddStudent() {
+        assertEquals(4,enrollmentService.getStudents().size());
         Student student = new Student("Ikhlas","Ahmed","ike.ahmed@outlook.com","1");
         enrollmentService.addStudent(student);
         assertEquals(student.getFirstName(), enrollmentService.retrieveStudent("1").getFirstName());
+        assertEquals(5,enrollmentService.getStudents().size());
     }
 }

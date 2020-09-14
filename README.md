@@ -26,4 +26,7 @@ https://us02web.zoom.us/rec/share/z9ZfC5Du-jNJXrf12kjya6UuBLrmeaa80CYf8vBcnxzewr
 Week 7: Deploying spring boot docker application in AWS using ECS. spring boot actuator. 
 https://us02web.zoom.us/rec/share/uueK8RyhF2gLI-O6zH9VFyKgdMwWcMf_DlWltK9nKhYMQ1Tm9_DwItUKVTGK7JYm.ZE4UkVocQj0u40XD
 
-Week 8: Testing controller, web requests using Mockito 
+Week 8: A full course and students enrollment system using springboot with junit and mockito tests
+Meeting Recording:
+https://us02web.zoom.us/rec/share/ZgrHMihucIfJiuKp73vcREJaBPYbbPc7C4dP7Ad-Ldcal2fCVZ-JfHhH7DlfK917.v74hDo3nXlK4aa-I
+
